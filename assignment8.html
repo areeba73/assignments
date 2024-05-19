@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>assignment8(table+form)</title>
+</head>
+<body>
+    <!--in html use center tag to align the text center e.g;
+    <center><h1>STUDENT REGISTRATION FORM<center></h1> -->
+        
+    <h1>STUDENT REGISTRATION FORM</h1>
+
+    <!--start table -->
+
+    <table>
+
+        <!--start form-->
+
+        <form action="">
+            <tr>
+              <!--table row-->
+              <td><label for="name">FIRST NAME</label></td>
+              <!-- 'for' used for indicate its  family -->
+              <td><input type="text" id="name">(max 30 characters a-z and A-Z)</td>
+            </tr>
+
+            <tr>
+                <td><label for="name1">LAST NAME</label></td>
+                <!-- 'id' linked to the 'for' to indicate the family -->
+                <td><input type="text" id="name1">(max 30 characters a-z and A-Z)</td>
+            </tr>
+
+            <tr>
+                <td><label for="date">DATE OF BIRTH</label></td>
+
+                <!--start select for dropdown date -->
+                <td><select name="" id="date">
+                <option value=""> DAY</option>
+                <!--this select for day-->
+                    <option value="">Monday</option>
+                    <option value="">Tuesday</option>
+                    <option value="">Wednesday</option>
+                    <option value="">Thursday</option>
+                    <option value="">Friday</option>
+                    <option value="">Saturday</option>
+                    <option value="">Sunday</option>
+                </select>
+                <!--this select for day-->
+                <select name="" id="date">
+                <option value=""> Month</option>
+                    <option value="">mon</option>
+                    <option value="">tue</option>
+                    <option value="">thurs</option>
+                    <option value="">fri</option>
+                    <option value="">sat</option>
+                    <option value="">sun</option>
+                </select>
+                <select name="" id="date">
+                    <!--this select for year-->
+                <option value=""> Year</option>
+                    <option value="">mon</option>
+                    <option value="">tue</option>
+                    <option value="">thurs</option>
+                    <option value="">fri</option>
+                    <option value="">sat</option>
+                    <option value="">sun</option>
+                </select>
+                </td>
+                <!--select end-->
+            </tr>
+
+            <tr>
+                <td><label for="email">Email ID</label></td>
+                <td><input type="email" id="email"></td>
+            </tr>
+
+            <tr>
+                <td><label for="number">MOBILE NUMBER</label></td>
+                <td><input type="text" id="number">(10 digit number)</td>
+            </tr>
+
+            <tr>
+                <td><label for="gender">GENDER</label></td>
+                <!--this is radio to select one of them-->
+                <td>Male<input type="radio" id="gender">
+                Female<input type="radio" id="gender"></td>
+            </tr>
+
+            <tr>
+                <td><label for="address">ADDRESS</label></td>
+                <!--this is textarea for box sizing we need-->
+                <td><textarea id="address" cols="30" rows="3"></textarea></td>
+            </tr>
+
+            <tr>
+                <td><label for="city">CITY</label></td>
+                <td><input type="text" id="city">(max 30 characters a-z and A-Z)</td>
+            </tr>
+
+            <tr>
+                <td><label for="code">PIN CODE</label></td>
+                <td><input type="text" id="code">(6 digit number)</td>
+            </tr>
+
+            <tr>
+                <td><label for="state">STATE</label></td>
+                <td><input type="text" id="state">(max 30 characters a-z and A-Z)</td>
+            </tr>
+
+            <tr>
+                <td><label for="country">COUNTRY</label></td>
+
+                <!--placeholder used for write a text in input box-->
+                <td><input type="text" id="country" placeholder="India"></td>
+            </tr>
+
+            <tr>
+                <td><label for="hobby">HOBBIES</label></td>
+
+                <!--checkbox used for seclect multiple options -->
+                <td>
+                Drawing<input type="checkbox" id="hobby">
+                Singing<input type="checkbox" id="hobby">
+                Dancing<input type="checkbox" id="hobby">
+                Sketching<input type="checkbox" id="hobby">
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>Others<input type="checkbox" id="hobby">
+                <input type="text" id="hobby"></td>
+            </tr> 
+        </form>
+        <!--form end-->
+    </table>
+    <!--table1 end -->
+
+    <!--table2 start-->
+    <table>
+        <tr>
+            <th>QUALIFICATION</th>
+            <th>SI.NO </th>
+            <th>Examination</th>
+            <th>Board</th>
+            <th>Percentage</th>
+            <th>Year of Passing</th>
+        </tr>
+
+        <tr>
+            <!--table row -->
+            <td></td>
+            <td>1</td>
+            <td>Class X</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+            <!--row end-->
+
+        <tr>
+            <td></td>
+            <td>2</td>
+            <td>Class XII</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+
+        <tr>
+            <!--table data-->
+            <td></td>
+            <td>3</td>
+            <td>Graduation</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>4</td>
+            <td>Masters</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <!--empty td for empty cloumn-->
+            <td></td>
+            <td></td>
+            <td>(10 characters)</td>
+            <td>(upto 2 decimal)</td>
+            <td></td>
+            </tr>
+    </table>
+    <!--table2 end-->
+
+    <!--table3 start-->
+
+    <table>
+        <tr>
+            <td>COURSES</td>
+        </tr>
+        <tr>
+            <td>APPLIED FOR</td><td></td>
+
+            <!--used radio for select one of them -->
+
+            <td><input type="radio" name="course">BCA
+            <input type="radio" name="course">B.COM
+            <input type="radio" name="course">B.SC
+            <input type="radio" name="course">B.A
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <!--this is submit button-->
+
+            <td><input type="submit" value="Submit">  <input type="submit" value="Reset"></td>
+        </tr>
+    </table>
+    <!--table3 end-->
+</body>
+</html>

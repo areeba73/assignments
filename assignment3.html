@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>assignment3(forms)</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <!--start the form-->
+    <form>
+        <Label for="name">First Name:</Label>     
+        <!-- 'for' used for indicate its  family -->
+
+        <input type="text" placeholder="John" id="name"> 
+        <!-- 'id' linked to the 'for' to indicate the family -->
+
+        <Label for="name1">Last Name:</Label>
+        <input type="text" placeholder="Smith" id="name1"><br><br>
+
+        <!--this is radio to check one of them-->
+        
+        <input type="radio" name="n">Male
+        <input type="radio" name="n">Female
+        <input type="radio" name="n">Others<br><br>
+        <Label for="email">Email:</Label>
+        <input type="email" placeholder="your email" id="email">
+        <!-- placeholder used for write the text in the input box -->
+
+        <Label for="password">Password:</Label>
+        <input type="password" placeholder="your password" id="password"><br><br>
+        <Label for="date">Birthday:</Label>
+
+        <!--start the select. this is used to drop down date -->
+        
+        <select name="" id="date">
+            <option value="month">Month
+                <!--this select for month-->
+                <option value="Jan">Janury</option>
+                <option value="Feb">February</option>
+                <option value="Mar">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+                <option value="October">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+            </option>
+        </select>   <!--month select end-->
+
+        <!--this select for day-->
+
+        <select name="" id="date">
+            <option value="">Day
+                <option value="Mon">Monday</option>
+                <option value="Tue">Tuesday</option>
+                <option value="Wed">Wednesday</option>
+                <option value="Thurs">Thursday</option>
+                <option value="Fri">Friday</option>
+                <option value="Sat">Saturday</option>
+                <option value="Sun">Sunday</option>
+            </option>
+        </select>       <!--day select end-->
+
+        <!--this select for year-->
+
+        <select name="" id="date">
+            <option value="">year
+                <option value="2">2000</option>
+                <option value="21">2001</option>
+                <option value="22">2002</option>
+                <option value="23">2003</option>
+                <option value="24">2004</option>
+                <option value="25">2005</option>
+                <option value="26">2006</option>
+                <option value="27">2007</option>
+                <option value="28">2008</option>
+                <option value="29">2009</option>
+                <option value="210">2010</option>
+            </option>
+        </select><br><br>
+        <!--year select end-->
+
+       I agree to the ternms and conditions <input type="checkbox"><br><br>
+       <!--checkbox is used to select multiple options -->
+
+        <input type="submit" value="submit">
+    </form>
+    <!--form end -->
+</body>
+</html>
